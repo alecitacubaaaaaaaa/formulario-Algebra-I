@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Matemático - Cálculo I (V. Chungara Castro)</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulario Algebra</h1>
+        
+        <!-- Sección de Álgebra -->
+        <div class="section" id="algebra">
+            <h2>Álgebra</h2>
+            
+            <h3>Exponentes y Radicales</h3>
+            <div class="formula">
+                a<sup>m</sup> · a<sup>n</sup> = a<sup>m+n</sup>
+            </div>
+            <div class="formula">
+                (a<sup>m</sup>)<sup>n</sup> = a<sup>m·n</sup>
+            </div>
+            <div class="formula">
+                (a·b)<sup>n</sup> = a<sup>n</sup> · b<sup>n</sup>
+            </div>
+            <div class="formula">
+                a<sup>-n</sup> = 1/a<sup>n</sup> (a ≠ 0)
+            </div>
+            <div class="formula">
+                √(a·b) = √a · √b
+            </div>
+            <div class="formula">
+                √(a/b) = √a / √b (b ≠ 0)
+            </div>
+            
+            <h3>Logaritmos</h3>
+            <div class="formula">
+                log<sub>a</sub>(x·y) = log<sub>a</sub>x + log<sub>a</sub>y
+            </div>
+            <div class="formula">
+                log<sub>a</sub>(x/y) = log<sub>a</sub>x - log<sub>a</sub>y
+            </div>
+            <div class="formula">
+                log<sub>a</sub>(x<sup>n</sup>) = n·log<sub>a</sub>x
+            </div>
+            <div class="formula">
+                log<sub>a</sub>b = log<sub>c</sub>b / log<sub>c</sub>a (Cambio de base)
+            </div>
+            
+            <h3>Factorización</h3>
+            <div class="formula">
+                a² - b² = (a + b)(a - b)
+            </div>
+            <div class="formula">
+                a³ ± b³ = (a ± b)(a² ∓ ab + b²)
+            </div>
+            <div class="formula">
+                (a ± b)² = a² ± 2ab + b²
+            </div>
+            <div class="formula">
+                (a ± b)³ = a³ ± 3a²b + 3ab² ± b³
+            </div>
+<h3>Ecuaciones Cuadráticas</h3>
+            <div class="formula">
+                ax² + bx + c = 0 → x = [-b ± √(b² - 4ac)] / 2a
+            </div>
+            <div class="formula">
+                Discriminante: D = b² - 4ac
+            </div>
+            <div class="formula">
+                Si D > 0: 2 raíces reales distintas<br>
+                Si D = 0: 1 raíz real doble<br>
+                Si D < 0: 2 raíces complejas conjugadas
+            </div>
+        </div>
+        
+        <!-- Sección de Trigonometría -->
+        <div class="section" id="trigonometria">
+            <h2>Trigonometría</h2>
+            
+            <h3>Identidades Fundamentales</h3>
+            <div class="formula">
+                sen²θ + cos²θ = 1
+            </div>
+            <div class="formula">
+                1 + tan²θ = sec²θ
+            </div>
+            <div class="formula">
+                1 + cot²θ = csc²θ
+            </div>
+            
+            <h3>Fórmulas de Suma y Resta</h3>
+            <div class="formula">
+                sen(α ± β) = senα cosβ ± cosα senβ
+            </div>
+            <div class="formula">
+                cos(α ± β) = cosα cosβ ∓ senα senβ
+            </div>
+            <div class="formula">
+                tan(α ± β) = (tanα ± tanβ) / (1 ∓ tanα tanβ)
+            </div>
+            
+            <h3>Ángulos Dobles</h3>
+            <div class="formula">
+                sen(2θ) = 2 senθ cosθ
+            </div>
+            <div class="formula">
+                cos(2θ) = cos²θ - sen²θ = 2cos²θ - 1 = 1 - 2sen²θ
+            </div>
+            <div class="formula">
+                tan(2θ) = 2tanθ / (1 - tan²θ)
+            </div>
+            
+            <h3>Ley de Senos y Cosenos</h3>
+            <div class="formula">
+                Ley de Senos: a/senA = b/senB = c/senC = 2R (R: radio circunferencia circunscrita)
+            </div>
+            <div class="formula">
+                Ley de Cosenos: c² = a² + b² - 2ab cosC
+            </div>
+            
+            <h3>Transformaciones</h3>
+            <div class="formula">
+                senα + senβ = 2 sen[(α+β)/2] cos[(α-β)/2]
+            </div>
+            <div class="formula">
+                senα - senβ = 2 cos[(α+β)/2] sen[(α-β)/2]
+            </div>
+            <div class="formula">
+                cosα + cosβ = 2 cos[(α+β)/2] cos[(α-β)/2]
+            </div>
+            <div class="formula">
+                cosα - cosβ = -2 sen[(α+β)/2] sen[(α-β)/2]
+            </div>
+        </div>
+        
+        <!-- Sección de Geometría Analítica -->
+        <div class="section" id="geometria-analitica">
+            <h2>Geometría Analítica</h2>
+            
+            <h3>Distancia entre dos puntos</h3>
+            <div class="formula">
+                d = √[(x₂ - x₁)² + (y₂ - y₁)²]
+            </div>
+            
+            <h3>Punto Medio</h3>
+            <div class="formula">
+                M = ((x₁ + x₂)/2, (y₁ + y₂)/2)
+            </div>
+            
+            <h3>Ecuación de la Recta</h3>
+            <div class="formula">
+                Forma general: Ax + By + C = 0
+            </div>
+            <div class="formula">
+                Forma pendiente-ordenada: y = mx + b (m: pendiente, b: ordenada al origen)
+            </div>
+            <div class="formula">
+                Pendiente: m = (y₂ - y₁)/(x₂ - x₁)
+            </div>
+            <div class="formula">
+                Forma punto-pendiente: y - y₁ = m(x - x₁)
+            </div>
+            <div class="formula">
+                Rectas paralelas: m₁ = m₂
+            </div>
+            <div class="formula">
+                Rectas perpendiculares: m₁ · m₂ = -1
+            </div>
+            
+            <h3>Secciones Cónicas</h3>
+            <h4>Circunferencia</h4>
+            <div class="formula">
+(x - h)² + (y - k)² = r² (Centro en (h,k), radio r)
+            </div>
+            
+            <h4>Elipse</h4>
+            <div class="formula">
+                (x - h)²/a² + (y - k)²/b² = 1 (Centro en (h,k), eje mayor 2a, eje menor 2b)
+            </div>
+            <div class="formula">
+                Excentricidad: e = c/a (c = √(a² - b²))
+            </div>
+            
+            <h4>Hipérbola</h4>
+            <div class="formula">
+                (x - h)²/a² - (y - k)²/b² = 1 (Centro en (h,k), eje transversal horizontal)
+            </div>
+            <div class="formula">
+                (y - k)²/a² - (x - h)²/b² = 1 (Centro en (h,k), eje transversal vertical)
+            </div>
+            <div class="formula">
+                Asíntotas: y - k = ±(b/a)(x - h) (para la primera forma)
+            </div>
+            <div class="formula">
+                Excentricidad: e = c/a (c = √(a² + b²))
+            </div>
+            
+            <h4>Parábola</h4>
+            <div class="formula">
+                (y - k)² = 4p(x - h) (Vértice en (h,k), eje horizontal, abre derecha si p>0)
+            </div>
+            <div class="formula">
+                (x - h)² = 4p(y - k) (Vértice en (h,k), eje vertical, abre arriba si p>0)
+            </div>
+            
+            <h3>Coordenadas Polares</h3>
+            <div class="formula">
+                x = r cosθ, y = r senθ
+            </div>
+            <div class="formula">
+                r = √(x² + y²), θ = arctan(y/x)
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Tabla de Valores Trigonométricos</h2>
+            <table>
+                <tr>
+                    <th>Ángulo (θ)</th>
+                    <th>0°</th>
+                    <th>30° (π/6)</th>
+                    <th>45° (π/4)</th>
+                    <th>60° (π/3)</th>
+                    <th>90° (π/2)</th>
+                </tr>
+                <tr>
+                    <td>senθ</td>
+                    <td>0</td>
+                    <td>1/2</td>
+                    <td>√2/2</td>
+                    <td>√3/2</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>cosθ</td>
+                    <td>1</td>
+                    <td>√3/2</td>
+                    <td>√2/2</td>
+                    <td>1/2</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>tanθ</td>
+                    <td>0</td>
+                    <td>√3/3</td>
+                    <td>1</td>
+                    <td>√3</td>
+                    <td>∞</td>
+                </tr>
+            </table>
+            <h3>Gráficas de Secciones Cónicas</h3>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around; margin: 20px 0;">
+    <!-- Circunferencia -->
+    <div style="width: 300px; margin: 10px; text-align: center;">
+        <h4>Circunferencia</h4>
+        <svg width="200" height="200" viewBox="0 0 200 200" style="border: 1px solid #ccc;">
+            <circle cx="100" cy="100" r="80" stroke="#3498db" stroke-width="2" fill="none"/>
+            <line x1="100" y1="20" x2="100" y2="180" stroke="#e74c3c" stroke-width="1" stroke-dasharray="5,5"/>
+            <line x1="20" y1="100" x2="180" y2="100" stroke="#e74c3c" stroke-width="1" stroke-dasharray="5,5"/>
+            <circle cx="100" cy="100" r="3" fill="#e74c3c"/>
+            <text x="105" y="105" font-size="12" fill="#e74c3c">(h,k)</text>
+            <line x1="100" y1="100" x2="180" y2="100" stroke="#2ecc71" stroke-width="2"/>
+            <text x="140" y="95" font-size="12" fill="#2ecc71">r</text>
+        </svg>
+        <p>(x-h)² + (y-k)² = r²</p>
+    </div>
+
+    <!-- Elipse -->
+    <div style="width: 300px; margin: 10px; text-align: center;">
+        <h4>Elipse</h4>
+        <svg width="200" height="200" viewBox="0 0 200 200" style="border: 1px solid #ccc;">
+            <ellipse cx="100" cy="100" rx="90" ry="60" stroke="#3498db" stroke-width="2" fill="none"/>
+            <line x1="10" y1="100" x2="190" y2="100" stroke="#e74c3c" stroke-width="1"/>
+            <line x1="100" y1="40" x2="100" y2="160" stroke="#e74c3c" stroke-width="1"/>
+            <circle cx="100" cy="100" r="3" fill="#e74c3c"/>
+            <text x="105" y="105" font-size="12" fill="#e74c3c">(h,k)</text>
+            <line x1="100" y1="100" x2="190" y2="100" stroke="#2ecc71" stroke-width="2"/>
+            <text x="145" y="95" font-size="12" fill="#2ecc71">a</text>
+            <line x1="100" y1="100" x2="100" y2="160" stroke="#2ecc71" stroke-width="2"/>
+            <text x="105" y="130" font-size="12" fill="#2ecc71">b</text>
+            <circle cx="60" cy="100" r="3" fill="#9b59b6"/>
+            <circle cx="140" cy="100" r="3" fill="#9b59b6"/>
+            <line x1="60" y1="90" x2="60" y2="110" stroke="#9b59b6" stroke-width="2"/>
+            <line x1="140" y1="90" x2="140" y2="110" stroke="#9b59b6" stroke-width="2"/>
+        </svg>
+        <p>(x-h)²/a² + (y-k)²/b² = 1</p>
+    </div>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around; margin: 20px 0;">
+    <!-- Parábola -->
+    <div style="width: 300px; margin: 10px; text-align: center;">
+        <h4>Parábola (Vertical)</h4>
+        <svg width="200" height="200" viewBox="0 0 200 200" style="border: 1px solid #ccc;">
+            <path d="M100,20 Q140,100 100,180 Q60,100 100,20" stroke="#3498db" stroke-width="2" fill="none"/>
+            <line x1="20" y1="100" x2="180" y2="100" stroke="#e74c3c" stroke-width="1"/>
+            <line x1="100" y1="20" x2="100" y2="180" stroke="#e74c3c" stroke-width="1"/>
+            <circle cx="100" cy="100" r="3" fill="#e74c3c"/>
+            <text x="105" y="105" font-size="12" fill="#e74c3c">(h,k)</text>
+            <circle cx="100" cy="60" r="3" fill="#9b59b6"/>
+            <line x1="90" y1="60" x2="110" y2="60" stroke="#9b59b6" stroke-width="2"/>
+            <text x="110" y="65" font-size="12" fill="#9b59b6">foco</text>
+            <line x1="140" y1="140" x2="140" y2="60" stroke="#2ecc71" stroke-width="1" stroke-dasharray="5,5"/>
+            <text x="145" y="100" font-size="12" fill="#2ecc71">x=h±2p</text>
+        </svg>
+        <p>(x-h)² = 4p(y-k)</p>
+    </div>
+
+    <!-- Hipérbola -->
+    <div style="width: 300px; margin: 10px; text-align: center;">
+        <h4>Hipérbola</h4>
+        <svg width="200" height="200" viewBox="0 0 200 200" style="border: 1px solid #ccc;">
+<path d="M20,100 Q100,20 180,100" stroke="#3498db" stroke-width="2" fill="none"/>
+            <path d="M20,100 Q100,180 180,100" stroke="#3498db" stroke-width="2" fill="none"/>
+            <line x1="20" y1="100" x2="180" y2="100" stroke="#e74c3c" stroke-width="1"/>
+            <line x1="100" y1="20" x2="100" y2="180" stroke="#e74c3c" stroke-width="1"/>
+            <circle cx="100" cy="100" r="3" fill="#e74c3c"/>
+            <text x="105" y="105" font-size="12" fill="#e74c3c">(h,k)</text>
+            <line x1="100" y1="100" x2="180" y2="100" stroke="#2ecc71" stroke-width="2"/>
+            <text x="140" y="95" font-size="12" fill="#2ecc71">a</text>
+            <line x1="100" y1="100" x2="100" y2="20" stroke="#2ecc71" stroke-width="2"/>
+            <text x="105" y="60" font-size="12" fill="#2ecc71">b</text>
+            <line x1="20" y1="20" x2="180" y2="180" stroke="#9b59b6" stroke-width="1" stroke-dasharray="5,5"/>
+            <line x1="20" y1="180" x2="180" y2="20" stroke="#9b59b6" stroke-width="1" stroke-dasharray="5,5"/>
+            <text x="30" y="40" font-size="12" fill="#9b59b6">asíntotas</text>
+        </svg>
+        <p>(x-h)²/a² - (y-k)²/b² = 1</p>
+    </div>
+</div>
+
+<h3>Gráfica de Coordenadas Polares</h3>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around; margin: 20px 0;">
+    <div style="width: 600px; margin: 10px; text-align: center;">
+        <svg width="400" height="400" viewBox="0 0 400 400" style="border: 1px solid #ccc;">
+            <!-- Ejes -->
+            <line x1="200" y1="0" x2="200" y2="400" stroke="#e74c3c" stroke-width="1"/>
+            <line x1="0" y1="200" x2="400" y2="200" stroke="#e74c3c" stroke-width="1"/>
+            
+            <!-- Círculos concéntricos -->
+            <circle cx="200" cy="200" r="50" stroke="#3498db" stroke-width="1" fill="none" stroke-dasharray="5,5"/>
+            <circle cx="200" cy="200" r="100" stroke="#3498db" stroke-width="1" fill="none" stroke-dasharray="5,5"/>
+            <circle cx="200" cy="200" r="150" stroke="#3498db" stroke-width="1" fill="none" stroke-dasharray="5,5"/>
+            
+            <!-- Líneas angulares -->
+            <line x1="200" y1="200" x2="400" y2="200" stroke="#2ecc71" stroke-width="1" stroke-dasharray="5,5"/>
+            <line x1="200" y1="200" x2="300" y2="100" stroke="#2ecc71" stroke-width="1" stroke-dasharray="5,5"/>
+            <line x1="200" y1="200" x2="200" y2="0" stroke="#2ecc71" stroke-width="1" stroke-dasharray="5,5"/>
+            <line x1="200" y1="200" x2="100" y2="100" stroke="#2ecc71" stroke-width="1" stroke-dasharray="5,5"/>
+            <line x1="200" y1="200" x2="0" y2="200" stroke="#2ecc71" stroke-width="1" stroke-dasharray="5,5"/>
+            <line x1="200" y1="200" x2="100" y2="300" stroke="#2ecc71" stroke-width="1" stroke-dasharray="5,5"/>
+            <line x1="200" y1="200" x2="200" y2="400" stroke="#2ecc71" stroke-width="1" stroke-dasharray="5,5"/>
+            <line x1="200" y1="200" x2="300" y2="300" stroke="#2ecc71" stroke-width="1" stroke-dasharray="5,5"/>
+            
+            <!-- Punto de ejemplo -->
+            <circle cx="250" cy="150" r="4" fill="#9b59b6"/>
+            <line x1="200" y1="200" x2="250" y2="150" stroke="#9b59b6" stroke-width="2"/>
+            <text x="255" y="145" font-size="12" fill="#9b59b6">(r,θ)</text>
+            
+            <!-- Ángulo -->
+            <path d="M220,200 A20,20 0 0,1 235,185" stroke="#9b59b6" fill="none"/>
+            <text x="230" y="190" font-size="12" fill="#9b59b6">θ</text>
+            
+            <!-- Leyendas -->
+            <text x="390" y="195" font-size="12" fill="#e74c3c">0°</text>
+            <text x="290" y="95" font-size="12" fill="#e74c3c">45°</text>
+            <text x="195" y="15" font-size="12" fill="#e74c3c">90°</text>
+            <text x="90" y="95" font-size="12" fill="#e74c3c">135°</text>
+<text x="10" y="195" font-size="12" fill="#e74c3c">180°</text>
+            <text x="90" y="295" font-size="12" fill="#e74c3c">225°</text>
+            <text x="195" y="385" font-size="12" fill="#e74c3c">270°</text>
+            <text x="290" y="295" font-size="12" fill="#e74c3c">315°</text>
+        </svg>
+        <p>Coordenadas polares: r = distancia desde el origen, θ = ángulo desde el eje x positivo</p>
+    </div>
+</div>
+
+<!-- Créditos -->
+<div style="margin-top: 40px; padding: 15px; background-color: #f8f9fa; border-radius: 5px; text-align: center;">
+    <h3>Bibliografía</h3>
+    <p>Formulario basado en el libro <strong>"Cálculo I" de Víctor Chungara Castro</strong></p>
+    <p>Desarrollado por Alejandra Gloria Cuba Pinto - © 2025</p>
+</div>
+        </div>
+    </div>
+</body>
+</html>
